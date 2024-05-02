@@ -6,6 +6,7 @@ import {useTranslations} from 'next-intl'
 import {useCallback, useEffect, useRef} from 'react'
 import {useFormState} from 'react-dom'
 import {useForm} from 'react-hook-form'
+import {toast} from 'sonner'
 import {z} from 'zod'
 import {Button} from '../ui/button'
 import {
@@ -19,7 +20,6 @@ import {
 } from '../ui/form'
 import {Input} from '../ui/input'
 import {Textarea} from '../ui/textarea'
-import {useToast} from '../ui/use-toast'
 import {onSubmitAction} from './actions'
 import {FormSchema, MAX_LENGTH, MIN_LENGTH} from './schema'
 
@@ -29,7 +29,6 @@ type Props = {
 
 export function ContactsForm({className}: Props) {
   const t = useTranslations('contacts')
-  const {toast} = useToast()
 
   const [state, formAction] = useFormState(onSubmitAction, {
     message: '',
@@ -48,27 +47,22 @@ export function ContactsForm({className}: Props) {
 
   const onSuccess = useCallback(
     function () {
-      toast({
-        title: t('_successAlert'),
-      })
+      toast.success(t('_successAlert'))
       form.reset()
     },
-    [form, toast, t]
+    [form, t]
   )
   const onError = useCallback(
     function () {
-      toast({
-        title: t('_errorAlert'),
-      })
+      toast.error(t('_errorAlert'))
       form.reset()
     },
-    [form, toast, t]
+    [form, t]
   )
 
   useEffect(() => {
-    console.log(state)
-    if (state.message === 'success') onSuccess()
-    else if (state.message !== '') onError()
+    if (state?.message === 'success') onSuccess()
+    else if (state?.message !== '') onError()
   }, [state, onSuccess, onError])
 
   function onClear() {

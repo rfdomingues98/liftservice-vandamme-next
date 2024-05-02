@@ -25,8 +25,8 @@ export function Photos({photos}: Props) {
               className='flex justify-center items-center'
             >
               <Image
-                src={`/carousel/${photo}`}
-                alt={photo}
+                src={photo}
+                alt={`carousel_photo_${index}`}
                 width={1450 / 2}
                 height={1512 / 2}
               />

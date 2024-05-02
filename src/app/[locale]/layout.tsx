@@ -1,6 +1,6 @@
 import {Footer} from '@/components/footer'
 import {Navbar} from '@/components/navbar'
-import {Toaster} from '@/components/ui/toaster'
+import {Toaster} from '@/components/ui/sonner'
 import {NextIntlClientProvider} from 'next-intl'
 import {getMessages} from 'next-intl/server'
 
@@ -15,16 +15,11 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className='scroll-smooth'>
       <body className='relative min-h-screen'>
-        <NextIntlClientProvider
-          messages={
-            // … and provide the relevant messages
-            messages
-          }
-        >
+        <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
           <Footer />
-          <Toaster />
+          <Toaster closeButton richColors position='top-right' />
         </NextIntlClientProvider>
       </body>
     </html>
