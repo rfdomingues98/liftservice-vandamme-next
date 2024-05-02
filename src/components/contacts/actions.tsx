@@ -55,12 +55,17 @@ export async function onSubmitAction(
       text: message,
     }
 
-    transporter.sendMail(mailOptions, function (error, info) {
-      if (error) {
-        console.log(error)
-        return {message: `Email could not be sent with error: ${error}`}
-      }
-    })
+    await new Promise((resolve, reject) =>
+      transporter.sendMail(mailOptions, function (error, info) {
+        if (error) {
+          console.log(error)
+          reject()
+          return {message: `Email could not be sent with error: ${error}`}
+        } else {
+          resolve(info)
+        }
+      })
+    )
 
     return {message: 'success'}
   } catch (error) {
