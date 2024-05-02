@@ -3,7 +3,7 @@
 import {cn} from '@/lib/utils'
 import {zodResolver} from '@hookform/resolvers/zod'
 import {useTranslations} from 'next-intl'
-import {useCallback, useEffect, useRef} from 'react'
+import {useCallback, useEffect, useRef, useState} from 'react'
 import {useFormState} from 'react-dom'
 import {useForm} from 'react-hook-form'
 import {toast} from 'sonner'
@@ -29,6 +29,7 @@ type Props = {
 
 export function ContactsForm({className}: Props) {
   const t = useTranslations('contacts')
+  const [pending, setPending] = useState(false)
 
   const [state, formAction] = useFormState(onSubmitAction, {
     message: '',
@@ -49,12 +50,14 @@ export function ContactsForm({className}: Props) {
     function () {
       toast.success(t('_successAlert'))
       form.reset()
+      setPending(false)
     },
     [form, t]
   )
   const onError = useCallback(
     function () {
       toast.error(t('_errorAlert'))
+      setPending(false)
       form.reset()
     },
     [form, t]
@@ -63,6 +66,7 @@ export function ContactsForm({className}: Props) {
   useEffect(() => {
     if (state?.message === 'success') onSuccess()
     else if (state?.message !== '') onError()
+    else setPending(false)
   }, [state, onSuccess, onError])
 
   function onClear() {
@@ -76,6 +80,7 @@ export function ContactsForm({className}: Props) {
         action={formAction}
         onSubmit={(evt) => {
           evt.preventDefault()
+          setPending(true)
           form.handleSubmit(() => {
             formAction(new FormData(formRef.current!))
           })(evt)
@@ -155,6 +160,7 @@ export function ContactsForm({className}: Props) {
           <Button
             className='bg-blue-500 hover:bg-blue-500/90 rounded-sm'
             type='submit'
+            disabled={pending}
           >
             {t('_sendFormButton')}
           </Button>
