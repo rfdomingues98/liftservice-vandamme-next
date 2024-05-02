@@ -1,0 +1,95 @@
+{
+  "navbar": {
+    "_navHome": "Início",
+    "_navAbout": "Sobre",
+    "_navPricing": "Preços",
+    "_navPhotos": "Fotos",
+    "_navContacts": "Contactos",
+    "_navLanguage": "Idioma"
+  },
+  "about": {
+    "_title": "Sobre",
+    "_main": {
+      "item1": "Com o nosso elevador exterior (grua) podemos executar todo o transporte vertical dos materiais, das cargas, dos móveis, etc...",
+      "item2": "O elevador pode ser utilizado para mudanças completas, mas também para levantar ou baixar todos os materiais de construção (painéis, placas, telhas,tijolos, ladrilhos, ...), móveis, painéis solares, cozinhas, etc..."
+    },
+    "_sub": {
+      "title": "Informação importante para o utilização do elevador exterior (grua):",
+      "listItems": {
+        "item1": "O elevador deve ficar endireitado abaixo da janela ou do balcão, a um máximo de 7 metros da parede.",
+        "item2": "Precisa pelo menos de uma zona livre de 10 metros, ou 2 zonas de estacionamento.",
+        "item3": "Em alguns casos é preciso requerer uma autorização de estacionamento.",
+        "item4": "O cliente é responsável pelo pedido e pelo pagamento dessa autorização.",
+        "item5": "O solo onde fica o elevador deve ser estável e duro, e deve poder suportar um peso de 3500kg.",
+        "item6": "O elevador deve poder encostar à parede, à janela ou à balaustrada.",
+        "item7": "A fachada ou varanda deve ser suficientemente resistente para suportar a escada elevatória.",
+        "item8": "O elevador não pode ser utilizado com mau tempo (chuva, vento forte,etc…).",
+        "item9": "O elevador pode ser utilizado até uma altura de 30 metros (9° andar) e até 300 kg por carga."
+      }
+    },
+    "_conditions": {
+      "button": "Condições Gerais",
+      "listItems": {
+        "item1": "A duração do serviço começa desde o momento da chegada até à partida do mesmo lugar em questão.",
+        "item2": "O cliente fica responsável pelo prover (e/ou reservação) da zona de estacionamento suficiente (pelo menos 10 metros).",
+        "item3": "O cliente fica responsável por multas atribuídas à falta duma zona de estacionamento ou de reservação incorreta.",
+        "item4": "No caso em que o serviço não se possa efetuar pela falta de espaço para estacionar, o cliente paga um custo igual ao preço básico.",
+        "item5": "Com circunstâncias metereológicas fortes temos o direito de parar ou adiar o serviço.",
+        "item6": "Queixas devem ser efetuadas por escrito e no próprio dia. O pagamento não pode ser negado por causa de uma queixa.",
+        "item7": "A aceitação do serviço significa que o cliente também aceita as condições gerais."
+      }
+    }
+  },
+  "pricing": {
+    "_title": "Preços para Particulares",
+    "_cards": {
+      "card1": {
+        "title": "Zona Vermelha",
+        "firstHour": "Primeira Hora: 50€",
+        "extraHour": "Extra: 35€/hora",
+        "fullDay": "Dia inteiro: 200€"
+      },
+      "card2": {
+        "title": "Zona Laranja",
+        "firstHour": "Primeira Hora: 110€",
+        "extraHour": "Extra: 35€/hora",
+        "fullDay": "Dia inteiro: 305€"
+      },
+      "card3": {
+        "title": "Zona Amarela",
+        "firstHour": "Primeira Hora: 125€",
+        "extraHour": "Extra: 35€/hora",
+        "fullDay": "Dia inteiro: 375€"
+      },
+      "card4": {
+        "title": "Zona Verde",
+        "firstHour": "Primeira Hora: 185€",
+        "extraHour": "Extra: 35€/hora",
+        "fullDay": "Dia inteiro: 425€"
+      }
+    },
+    "_sub": {
+      "title": "Informação Adicional",
+      "listItems": {
+        "item1": "Todos os preços apresentados não incluem IVA.",
+        "item2": "Todos os preços incluem o uso do elevador e do operador em si.",
+        "item3": "Serviço ao sábado acresce em 50€.",
+        "item4": "Serviço ao domingo ou feriados acresce em 75€.",
+        "item5": "Podemos executar serviços em todo o país. No caso em que o serviço se encontre fora de uma destas zonas coloridas, o preço será determinado sob a dependência da distância e do volume do serviço. Nesse caso, por favor, contacte-nos.",
+        "item6": "O pagamento deve sempre ser realizado no próprio local e imediatamente após execução do serviço."
+      }
+    }
+  },
+  "photos": "Fotos",
+  "contacts": {
+    "_contactsTitle": "Contactos",
+    "_successAlert": "Sucesso!",
+    "_errorAlert": "Falha ao enviar mensagem!",
+    "_nameFormLabel": "Nome",
+    "_emailFormLabel": "Email",
+    "_messageFormLabel": "Mensagem",
+    "_sendFormButton": "Enviar",
+    "_resetFormButton": "Limpar",
+    "_orFormSeparator": "OU"
+  }
+}

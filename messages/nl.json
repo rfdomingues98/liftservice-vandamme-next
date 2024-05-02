@@ -1,0 +1,95 @@
+{
+  "navbar": {
+    "_navHome": "Home",
+    "_navAbout": "Info",
+    "_navPricing": "Prijzen",
+    "_navPhotos": "Foto's",
+    "_navContacts": "Contact",
+    "_navLanguage": "Taal"
+  },
+  "about": {
+    "_title": "Info",
+    "_main": {
+      "item1": "Liftservice Vandamme staat in voor  alle verticaal transport van goederen,materialen, meubelen,…",
+      "item2": "De ladderlift kan ingezet worden bij een volledige verhuis , maar ook voor het naar boven/beneden brengen van alle (bouw-)materialen,platen, zonnepanelen, meubelen, keukens,…"
+    },
+    "_sub": {
+      "title": "Belangrijk bij het gebruik van de ladderlift:",
+      "listItems": {
+        "item1": "De ladderlift moet recht onder het raam of onder het balkon kunnen staan op maximaal 7 meter van de muur.",
+        "item2": "Daarvoor moet minstens 10 meter, of 2 parkeerplaatsen, vrijgehouden worden.",
+        "item3": "In sommige gevallen is het nodig hiervoor een vergunning aan te vragen.",
+        "item4": "U bent zelf verantwoordelijk voor de aanvraag, regeling,betaling,…van deze vergunning.",
+        "item5": "De ondergrond waar de ladderlift op staat moet stabiel en hard zijn, en een gewicht van 3500kg kunnen dragen.",
+        "item6": "De ladderlift moet tegen de gevel kunnen leunen, precies onder het raam of tegen het balkon.",
+        "item7": "De gevel of het balkon moet stevig genoeg zijn om de ladderlift te kunnen laten steunen.",
+        "item8": "Bij slecht weer of harde wind kan de ladderlift niet ingezet worden.",
+        "item9": "De ladderlift kan gebruikt worden tot een hoogte van 30m (9e verdiep) en tot max 300kg per lading."
+      }
+    },
+    "_conditions": {
+      "button": "Algemene voorwaarden",
+      "listItems": {
+        "item1": "De tijd van de opdracht gaat in vanaf aankomst van de ladderlift tot vertrek bij de klant.",
+        "item2": "De klant is verantwoordelijk voor het voorzien (en/of reserveren) van genoeg parkeerruimte.",
+        "item3": "De klant is verantwoordelijk voor boetes bij het niet of foutief aanvragen van de parkeerruimte.",
+        "item4": "Als de opdracht niet kan uitgevoerd worden omdat er geen parkeerruimte beschikbaar is zal er een verplaatsingskost  aangerekend worden, gelijk aan de basisprijs (zie prijzen).",
+        "item5": "Bij hevige weersomstandigheden heeft liftservice Vandamme het recht om de werken stop te zetten of uit te stellen.",
+        "item6": "Klachten dienen de dag zelf en schriftelijk te gebeuren, betaling kan niet geweigerd worden door de klant omwille van een klacht.",
+        "item7": "Bij het aanvaarden van de opdracht geeft de klant zijn goedkeuring van de algemene voorwaarden."
+      }
+    }
+  },
+  "pricing": {
+    "_title": "Prijzen ",
+    "_cards": {
+      "card1": {
+        "title": "Rode zone",
+        "firstHour": "Eerste uur: 50€",
+        "extraHour": "Extra: 35€/uur",
+        "fullDay": "Volledige dag: 200€"
+      },
+      "card2": {
+        "title": "Oranje zone",
+        "firstHour": "Eerste uur: 110€",
+        "extraHour": "Extra: 35€/uur",
+        "fullDay": "Volledige dag: 305€"
+      },
+      "card3": {
+        "title": "Gele zone",
+        "firstHour": "Eerste uur: 125€",
+        "extraHour": "Extra: 35€/uur",
+        "fullDay": "Volledige dag: 375€"
+      },
+      "card4": {
+        "title": "Groene zone",
+        "firstHour": "Eerste uur: 185€",
+        "extraHour": "Extra: 35€/uur",
+        "fullDay": "Volledige dag: 425€"
+      }
+    },
+    "_sub": {
+      "title": "Extra Informatie",
+      "listItems": {
+        "item1": "Alle prijzen zijn exclusief BTW.",
+        "item2": "Alle prijzen omvatten het gebruik van de ladderlift +  bediening.",
+        "item3": "Opdracht op zaterdag : + 50€",
+        "item4": "Opdracht op zon-of feestdag: + 75€",
+        "item5": "We kunnen opdrachten uitvoeren over gans Portugal. Als de opdracht zich niet in één van deze zones bevindt dan wordt de prijs bepaald afhankelijk van de afstand en de omvang van de opdracht. Gelieve,in dit geval, contact met ons op te nemen.",
+        "item6": "Betaling altijd contant, ter plaatse , direct na uitvoering opdracht."
+      }
+    }
+  },
+  "photos": "Foto's",
+  "contacts": {
+    "_contactsTitle": "Contact",
+    "_successAlert": "Success!",
+    "_errorAlert": "Bericht niet verzonden!",
+    "_nameFormLabel": "Naam",
+    "_emailFormLabel": "Email",
+    "_messageFormLabel": "Bericht",
+    "_sendFormButton": "Verzenden",
+    "_resetFormButton": "Wissen",
+    "_orFormSeparator": "OF"
+  }
+}

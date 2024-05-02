@@ -1,0 +1,95 @@
+{
+  "navbar": {
+    "_navHome": "Home",
+    "_navAbout": "Info",
+    "_navPricing": "Tarifs",
+    "_navPhotos": "Photos",
+    "_navContacts": "Contact",
+    "_navLanguage": "Langue"
+  },
+  "about": {
+    "_title": "Info",
+    "_main": {
+      "item1": "Liftservice Vandamme propose tous les transports verticaux de marchandises, matériaux, meubles, ...",
+      "item2": "Le lift élévateur peut être utilisé pour un déménagement complet, mais également pour  monter / descendre tous les matériaux (de construction), plaques, panneaux solaires, meubles, cuisines, ..."
+    },
+    "_sub": {
+      "title": "Important lors de l'utilisation du lift élévateur:",
+      "listItems": {
+        "item1": "Le lift élévateur doit pouvoir se positionner directement sous la fenêtre ou sous le balcon et ceci à une distance maximum de 7 mètres du mur.",
+        "item2": "Au moins 10 mètres ou 2 places de parking doivent être libres pour la stationnement du lift.",
+        "item3": "Dans certains cas, il est nécessaire de demander un permis.",
+        "item4": "Vous êtes responsable de la demande de permission, de l'organisation, du réglement, ... de ce permis.",
+        "item5": "La surface sur laquelle se pose le lift élévateur doit être stable et dure, et capable de supporter un poids de 3500 kg.",
+        "item6": "Le lift élévateur doit pouvoir s'appuyer contre la façade, juste sous la fenêtre ou contre le balcon.",
+        "item7": "La façade ou le balcon doit être suffisamment solide pour supporter le lift élévateur.",
+        "item8": "Le lift élévateur ne peut pas être utilisé par mauvais temps ou par vent fort.",
+        "item9": "Le lift élévateur peut être utilisé jusqu'à une hauteur de 30 m (9ème étage) et jusqu'à 300 kg par charge."
+      }
+    },
+    "_conditions": {
+      "button": "Conditions générales",
+      "listItems": {
+        "item1": "L'heure de la mission commence de l'arrivée du lift élévateur jusqu'au départ chez le client.",
+        "item2": "Le client est responsable de fournir (et / ou de réserver) suffisamment d'espace de stationnement.",
+        "item3": "Le client est responsable des amendes si aucune permission de stationnement à été demandé ou si la place de stationnement ne convient pas à l'installation du lift élévateur.",
+        "item4": "Si l'intervention ne peut être exécutée pour non possibilité de stationner le lift élévateur comme se doit, des frais de déplacement seront facturés, égal au prix de base (voir tarifs).",
+        "item5": "En cas d'intempéries, le Lift service Vandamme a le droit d'arrêter ou de reporter l'intervention.",
+        "item6": "Les réclamations doivent être déposées le jour même et par écrit, le paiement ne peut être refusé par le client en raison d'une réclamation.",
+        "item7": "Lors de l'acceptation de la commande, le client approuve les conditions générales."
+      }
+    }
+  },
+  "pricing": {
+    "_title": "Tarifs ",
+    "_cards": {
+      "card1": {
+        "title": " Zone rouge",
+        "firstHour": "Première heure: 50€",
+        "extraHour": "Extra: 35€/heure",
+        "fullDay": "Journée complète: 200€"
+      },
+      "card2": {
+        "title": "Zone orange",
+        "firstHour": "Première heure: 110€",
+        "extraHour": "Extra: 35€/heure",
+        "fullDay": "Journée complète: 305€"
+      },
+      "card3": {
+        "title": "Zone jaune",
+        "firstHour": "Première heure: 125€",
+        "extraHour": "Extra: 35€/heure",
+        "fullDay": "Journée complète: 375€"
+      },
+      "card4": {
+        "title": "Zone verte",
+        "firstHour": "Première heure: 185€",
+        "extraHour": "Extra: 35€/heure",
+        "fullDay": "Journée complète: 425€"
+      }
+    },
+    "_sub": {
+      "title": "Information additionnelle",
+      "listItems": {
+        "item1": "Tous les prix n'incluent pas la TVA.",
+        "item2": "Tous les prix incluent l'utilisation de l'ascenseur d'échelle + opérateur.",
+        "item3": "Interventions le samedi: + 50 €",
+        "item4": "Interventions le dimanche ou jours fériés: + 75 €",
+        "item5": "Nous pouvons intervenir dans tout le Portugal. Si l'intervention n'est pas située dans l'une de ces zones, le prix sera déterminé en fonction de la distance et de l'envergure de l'intervention. Dans ce cas, veuillez nous contacter.",
+        "item6": "Payements uniquement en espèces, sur place, immédiatement après exécution de la commande."
+      }
+    }
+  },
+  "photos": "Photos",
+  "contacts": {
+    "_contactsTitle": "Contact",
+    "_successAlert": "Succès!",
+    "_errorAlert": "Échec de l'envoi du message!",
+    "_nameFormLabel": "Nom",
+    "_emailFormLabel": "Email",
+    "_messageFormLabel": "Message",
+    "_sendFormButton": "Envoyer",
+    "_resetFormButton": "Annuler",
+    "_orFormSeparator": "Ou"
+  }
+}

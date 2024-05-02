@@ -1,0 +1,95 @@
+{
+  "navbar": {
+    "_navHome": "Home",
+    "_navAbout": "About",
+    "_navPricing": "Prices",
+    "_navPhotos": "Photos",
+    "_navContacts": "Contacts",
+    "_navLanguage": "Language"
+  },
+  "about": {
+    "_title": "About",
+    "_main": {
+      "item1": "With our exterior lift (crane) we can execute every vertical transport of materials, loads, furniture, etc...",
+      "item2": "The lift can be used for complete changes, but also to raise or bring down every kind of construction materials (panels, slabs, roof tiles, bricks, tiles, ...), furniture, solar panels, kitchens, etc..."
+    },
+    "_sub": {
+      "title": "Important information for the use of the exterior lift (crane):",
+      "listItems": {
+        "item1": "The lift must be straightened below the window or balcony, at a maximum of 7 meters of the wall.",
+        "item2": "Needs at least a clear space of 10 meters, or 2 parking spots.",
+        "item3": "In some cases it requires a parking authorization.",
+        "item4": "The customer is responsible for the request and payment of that authorization.",
+        "item5": "The ground where the lift stays must be stable, hard and must bear a weight of 3500kg.",
+        "item6": "The lift must be able to lean on the wall, window or balaustrade.",
+        "item7": "The facade or balcony must be strong enough to support the ladder lift.",
+        "item8": "The lift cannot be used in bad weather conditions (rain, strong wind, etc…).",
+        "item9": "The lift can be used up to a height of 30 meters (9th floor) and up to 300kg per load."
+      }
+    },
+    "_conditions": {
+      "button": "General Conditions",
+      "listItems": {
+        "item1": "The duration of the service counts since the arrival until the departure of the destination.",
+        "item2": "The customer is responsible for providing (and/or reservation) of a parking spot big enough (at least 10 meters).",
+        "item3": "The customer is responsible for tickets due to the lack of a parking spot or incorrect reservation.",
+        "item4": "In the case of not being able to perform the service due to the lack of a parking spot, the customer pays a cost equal to the standard price.",
+        "item5": "With strong weather conditions we have the right to delay or stop the service.",
+        "item6": "Complaints have to be delivered made in writing and on the same day. The payment may not be denied due to a complaint.",
+        "item7": "The acceptance of the service implies the customer also accepts the general conditions."
+      }
+    }
+  },
+  "pricing": {
+    "_title": "Prices",
+    "_cards": {
+      "card1": {
+        "title": "Red Zone",
+        "firstHour": "First Hour: 50€",
+        "extraHour": "Extra: 35€/hour",
+        "fullDay": "Full Day: 200€"
+      },
+      "card2": {
+        "title": "Orange Zone",
+        "firstHour": "First Hour: 110€",
+        "extraHour": "Extra: 35€/hour",
+        "fullDay": "Full Day: 305€"
+      },
+      "card3": {
+        "title": "Yellow Zone",
+        "firstHour": "First Hour: 125€",
+        "extraHour": "Extra: 35€/hour",
+        "fullDay": "Full Day: 375€"
+      },
+      "card4": {
+        "title": "Green Zone",
+        "firstHour": "First Hour: 185€",
+        "extraHour": "Extra: 35€/hour",
+        "fullDay": "Full Day: 425€"
+      }
+    },
+    "_sub": {
+      "title": "Aditional Information",
+      "listItems": {
+        "item1": "All the prices listed don't include VAT.",
+        "item2": "All the prices include the use of the lift and the machine operator.",
+        "item3": "Service on Saturday adds in 50€.",
+        "item4": "Service on Sundays or holidays adds in 75€.",
+        "item5": "We can provide the service all over the country. In the case of the service location being outside one of the colored zones, the price will be determined based on the distance and volume of the service. In that case, please, contact us.",
+        "item6": "The payment must always be made on the location of the service and imediately after its execution."
+      }
+    }
+  },
+  "photos": "Photos",
+  "contacts": {
+    "_contactsTitle": "Contacts",
+    "_successAlert": "Success!",
+    "_errorAlert": "Failed to send the message!",
+    "_nameFormLabel": "Name",
+    "_emailFormLabel": "Email",
+    "_messageFormLabel": "Message",
+    "_sendFormButton": "Send",
+    "_resetFormButton": "Reset",
+    "_orFormSeparator": "OR"
+  }
+}
