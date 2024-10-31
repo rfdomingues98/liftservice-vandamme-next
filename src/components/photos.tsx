@@ -17,7 +17,7 @@ export function Photos({photos}: Props) {
   return (
     <section id='photos'>
       <h2 className='font-medium text-2xl mb-5'>{t('photos')}</h2>
-      <Carousel className='w-full max-w-[750px] mx-auto'>
+      <Carousel className='w-full max-w-[750px] mx-auto overflow-x-hidden'>
         <CarouselContent>
           {photos.map((photo, index) => (
             <CarouselItem
@@ -33,8 +33,10 @@ export function Photos({photos}: Props) {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+        <div className='flex gap-2 justify-center'>
+          <CarouselPrevious className='mx-2' />
+          <CarouselNext className='mx-2' />
+        </div>
       </Carousel>
     </section>
   )

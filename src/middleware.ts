@@ -17,7 +17,7 @@ const ratelimit = new Ratelimit({
   redis: kv,
 
   // 5 requests from the same IP in 10 seconds
-  limiter: Ratelimit.slidingWindow(5, '3600 s'),
+  limiter: Ratelimit.slidingWindow(100, '3600 s'),
 })
 
 export default async function middleware(req: NextRequest) {

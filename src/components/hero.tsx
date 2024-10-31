@@ -10,7 +10,7 @@ export function Hero() {
       )}
     >
       <Image
-        src='/hero.jpeg'
+        src='/hero.jpg'
         fill
         alt='Hero image'
         style={{
