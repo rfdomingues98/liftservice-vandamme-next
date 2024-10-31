@@ -15,9 +15,9 @@ type Props = {
 export function Photos({photos}: Props) {
   const t = useTranslations()
   return (
-    <section id='photos'>
+    <section id='photos' className='scroll-mt-20'>
       <h2 className='font-medium text-2xl mb-5'>{t('photos')}</h2>
-      <Carousel className='w-full max-w-[750px] mx-auto overflow-x-hidden'>
+      <Carousel className='w-full max-w-[750px] mx-auto'>
         <CarouselContent>
           {photos.map((photo, index) => (
             <CarouselItem
@@ -34,8 +34,8 @@ export function Photos({photos}: Props) {
           ))}
         </CarouselContent>
         <div className='flex gap-2 justify-center'>
-          <CarouselPrevious className='mx-2' />
-          <CarouselNext className='mx-2' />
+          <CarouselPrevious />
+          <CarouselNext />
         </div>
       </Carousel>
     </section>

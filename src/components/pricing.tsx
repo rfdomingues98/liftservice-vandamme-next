@@ -12,7 +12,7 @@ export function Pricing() {
     ((pricing as AbstractIntlMessages)._sub as AbstractIntlMessages).listItems
   )
   return (
-    <section id='pricing'>
+    <section id='pricing' className='scroll-mt-20'>
       <h2 className='font-medium text-2xl mb-5'>{t('_title')}</h2>
       <div className='grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4'>
         {cards.map((key, index) => (

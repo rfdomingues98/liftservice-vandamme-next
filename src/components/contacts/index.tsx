@@ -7,7 +7,7 @@ import {ContactsForm} from './form'
 export function Contacts() {
   const t = useTranslations('contacts')
   return (
-    <section id='contacts'>
+    <section id='contacts' className='scroll-mt-20'>
       <h2 className='font-medium text-2xl mb-5'>{t('_contactsTitle')}</h2>
       <div className='grid grid-cols-1 lg:grid-cols-11 gap-6 justify-center items-center place-items-center'>
         <ContactsForm className='col-span-full lg:col-span-5 w-full space-y-4' />

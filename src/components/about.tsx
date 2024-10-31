@@ -25,7 +25,7 @@ export function About() {
       .listItems
   )
   return (
-    <section id='about'>
+    <section id='about' className='scroll-mt-20'>
       <h2 className='font-medium text-2xl mb-5'>{t('_title')}</h2>
       <div className='grid gap-6 grid-cols-1 lg:grid-cols-2 items-center'>
         <div className='flex-1'>
