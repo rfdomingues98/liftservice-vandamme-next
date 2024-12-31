@@ -42,30 +42,32 @@
   },
   "pricing": {
     "_title": "Preços para Particulares",
+    "onDemand": "Sob consulta",
+    "perHour": "/hora",
     "_cards": {
       "card1": {
         "title": "Zona Vermelha",
-        "firstHour": "Primeira Hora: 50€",
-        "extraHour": "Extra: 35€/hora",
-        "fullDay": "Dia inteiro: 200€"
+        "firstHour": "Primeira Hora:",
+        "extraHour": "Extra:",
+        "fullDay": "Dia inteiro:"
       },
       "card2": {
         "title": "Zona Laranja",
-        "firstHour": "Primeira Hora: 110€",
-        "extraHour": "Extra: 35€/hora",
-        "fullDay": "Dia inteiro: 305€"
+        "firstHour": "Primeira Hora:",
+        "extraHour": "Extra:",
+        "fullDay": "Dia inteiro:"
       },
       "card3": {
         "title": "Zona Amarela",
-        "firstHour": "Primeira Hora: 125€",
-        "extraHour": "Extra: 35€/hora",
-        "fullDay": "Dia inteiro: 375€"
+        "firstHour": "Primeira Hora:",
+        "extraHour": "Extra:",
+        "fullDay": "Dia inteiro:"
       },
       "card4": {
         "title": "Zona Verde",
-        "firstHour": "Primeira Hora: 185€",
-        "extraHour": "Extra: 35€/hora",
-        "fullDay": "Dia inteiro: 425€"
+        "firstHour": "Primeira Hora:",
+        "extraHour": "Extra:",
+        "fullDay": "Dia inteiro:"
       }
     },
     "_sub": {

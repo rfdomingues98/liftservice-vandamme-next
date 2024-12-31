@@ -42,30 +42,32 @@
   },
   "pricing": {
     "_title": "Prices",
+    "onDemand": "On demand",
+    "perHour": "/hour",
     "_cards": {
       "card1": {
         "title": "Red Zone",
-        "firstHour": "First Hour: 50€",
-        "extraHour": "Extra: 35€/hour",
-        "fullDay": "Full Day: 200€"
+        "firstHour": "First Hour:",
+        "extraHour": "Extra:",
+        "fullDay": "Full Day:"
       },
       "card2": {
         "title": "Orange Zone",
-        "firstHour": "First Hour: 110€",
-        "extraHour": "Extra: 35€/hour",
-        "fullDay": "Full Day: 305€"
+        "firstHour": "First Hour:",
+        "extraHour": "Extra:",
+        "fullDay": "Full Day:"
       },
       "card3": {
         "title": "Yellow Zone",
-        "firstHour": "First Hour: 125€",
-        "extraHour": "Extra: 35€/hour",
-        "fullDay": "Full Day: 375€"
+        "firstHour": "First Hour:",
+        "extraHour": "Extra:",
+        "fullDay": "Full Day:"
       },
       "card4": {
         "title": "Green Zone",
-        "firstHour": "First Hour: 185€",
-        "extraHour": "Extra: 35€/hour",
-        "fullDay": "Full Day: 425€"
+        "firstHour": "First Hour:",
+        "extraHour": "Extra:",
+        "fullDay": "Full Day:"
       }
     },
     "_sub": {

@@ -3,6 +3,8 @@ import Image from 'next/image'
 import {Card, CardContent, CardHeader, CardTitle} from './ui/card'
 import {Dialog, DialogContent, DialogTrigger} from './ui/dialog'
 
+const EXTRA_HOUR_PRICE = '40€'
+
 export function Pricing() {
   const t = useTranslations('pricing')
   const messages = useMessages()
@@ -23,9 +25,16 @@ export function Pricing() {
               </CardTitle>
             </CardHeader>
             <CardContent className='text-center'>
-              <p>{t(`_cards.${key}.firstHour`)}</p>
-              <p>{t(`_cards.${key}.extraHour`)}</p>
-              <p>{t(`_cards.${key}.fullDay`)}</p>
+              <p>
+                {t(`_cards.${key}.firstHour`)} {t(`onDemand`)}
+              </p>
+              <p>
+                {t(`_cards.${key}.extraHour`)} {EXTRA_HOUR_PRICE}
+                {t(`perHour`)}
+              </p>
+              <p>
+                {t(`_cards.${key}.fullDay`)} {t(`onDemand`)}
+              </p>
             </CardContent>
           </Card>
         ))}

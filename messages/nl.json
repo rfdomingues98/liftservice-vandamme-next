@@ -42,30 +42,32 @@
   },
   "pricing": {
     "_title": "Prijzen ",
+    "onDemand": "Op aanvraag",
+    "perHour": "/uur",
     "_cards": {
       "card1": {
         "title": "Rode zone",
-        "firstHour": "Eerste uur: 50€",
-        "extraHour": "Extra: 35€/uur",
-        "fullDay": "Volledige dag: 200€"
+        "firstHour": "Eerste uur:",
+        "extraHour": "Extra:",
+        "fullDay": "Volledige dag:"
       },
       "card2": {
         "title": "Oranje zone",
-        "firstHour": "Eerste uur: 110€",
-        "extraHour": "Extra: 35€/uur",
-        "fullDay": "Volledige dag: 305€"
+        "firstHour": "Eerste uur:",
+        "extraHour": "Extra:",
+        "fullDay": "Volledige dag:"
       },
       "card3": {
         "title": "Gele zone",
-        "firstHour": "Eerste uur: 125€",
-        "extraHour": "Extra: 35€/uur",
-        "fullDay": "Volledige dag: 375€"
+        "firstHour": "Eerste uur:",
+        "extraHour": "Extra:",
+        "fullDay": "Volledige dag:"
       },
       "card4": {
         "title": "Groene zone",
-        "firstHour": "Eerste uur: 185€",
-        "extraHour": "Extra: 35€/uur",
-        "fullDay": "Volledige dag: 425€"
+        "firstHour": "Eerste uur:",
+        "extraHour": "Extra:",
+        "fullDay": "Volledige dag:"
       }
     },
     "_sub": {
