@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Media (UploadThing)
+
+The video and carousel photos are served from [UploadThing](https://uploadthing.com) so they don't count against Vercel bandwidth. Set these env vars (locally in `.env.local` and in Vercel):
+
+- `UPLOADTHING_TOKEN` – from the UploadThing dashboard → API Keys
+- `UPLOADTHING_APP_ID` – the app id (the subdomain in `https://<APP_ID>.ufs.sh`)
+
+Upload files through the UploadThing dashboard. The page picks them up within an hour (`revalidate = 3600`):
+
+- `video.mp4` – the video in the About section, and `video-poster.jpg` its preview frame
+- any other image – a carousel photo, sorted by file name (`carousel1-min.jpg`, `carousel2-min.jpg`, …)
+
+Resize photos before uploading, since they are served as-is, e.g. `ffmpeg -i in.jpg -vf scale=1450:-2 -q:v 4 out.jpg`.
+
 ## Getting Started
 
 First, run the development server:

@@ -29,6 +29,9 @@ export function Photos({photos}: Props) {
                 alt={`carousel_photo_${index}`}
                 width={1450 / 2}
                 height={1512 / 2}
+                // Served straight from UploadThing to keep Vercel bandwidth
+                // and image optimization usage at zero
+                unoptimized
               />
             </CarouselItem>
           ))}

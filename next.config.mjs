@@ -8,7 +8,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'j3alkfksufzmdyhq.public.blob.vercel-storage.com',
+        hostname: '*.ufs.sh',
       },
     ],
   },

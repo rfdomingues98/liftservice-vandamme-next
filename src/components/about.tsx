@@ -1,3 +1,4 @@
+import type {Video} from '@/lib/assets'
 import {AbstractIntlMessages, useMessages, useTranslations} from 'next-intl'
 import {Button} from './ui/button'
 import {
@@ -12,7 +13,11 @@ type Messages = {
   [id: string]: string | string[] | Messages
 }
 
-export function About() {
+type Props = {
+  video?: Video
+}
+
+export function About({video}: Props) {
   const t = useTranslations('about')
   const messages = useMessages()
   const about = messages.about
@@ -59,11 +64,20 @@ export function About() {
             </DialogContent>
           </Dialog>
         </div>
-        <div className='flex-1 lg:flex-1'>
-          <video className='w-full max-h-[500px]' controls muted>
-            <source src='/video.mp4' type='video/mp4' />
-          </video>
-        </div>
+        {video && (
+          <div className='flex-1 lg:flex-1'>
+            <video
+              className='w-full max-h-[500px]'
+              controls
+              muted
+              playsInline
+              preload='none'
+              poster={video.poster}
+            >
+              <source src={video.src} type='video/mp4' />
+            </video>
+          </div>
+        )}
       </div>
     </section>
   )

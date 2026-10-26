@@ -12,6 +12,8 @@ export const env = createEnv({
     SMTP_PORT: z.coerce.number().int().default(465),
     SMTP_USER: z.string().min(1),
     SMTP_PASS: z.string().min(1),
+    UPLOADTHING_TOKEN: z.string().min(1),
+    UPLOADTHING_APP_ID: z.string().min(1),
   },
   /*
    * Environment variables available on the client (and server).
@@ -30,5 +32,7 @@ export const env = createEnv({
     SMTP_PORT: process.env.SMTP_PORT,
     SMTP_USER: process.env.SMTP_USER,
     SMTP_PASS: process.env.SMTP_PASS,
+    UPLOADTHING_TOKEN: process.env.UPLOADTHING_TOKEN,
+    UPLOADTHING_APP_ID: process.env.UPLOADTHING_APP_ID,
   },
 })
